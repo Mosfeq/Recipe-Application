@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btmSheet_Filter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filter_border"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/fixedTv_SortBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Sort By"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="All"
+        android:textSize="16sp"
+        android:textColor="@color/neon_blue"
+        android:gravity="center_horizontal"
+        android:background="@drawable/filter_option_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_SortBy" />
+
+    <TextView
+        android:id="@+id/tv_Newest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="Newest"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_Popularity"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_SortBy" />
+
+    <TextView
+        android:id="@+id/tv_Oldest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Oldest"
+        android:textSize="16sp"
+        android:textColor="@color/neon_blue"
+        android:gravity="center_horizontal"
+        android:background="@drawable/filter_option_border"
+        app:layout_constraintStart_toEndOf="@+id/tv_Newest"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_SortBy" />
+
+    <TextView
+        android:id="@+id/tv_Popularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Popularity"
+        android:textSize="16sp"
+        android:textColor="@color/neon_blue"
+        android:gravity="center_horizontal"
+        android:background="@drawable/filter_option_border"
+        app:layout_constraintStart_toEndOf="@+id/tv_All"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_SortBy" />
+
+    <TextView
+        android:id="@+id/fixedTv_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Time (Minutes)"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_All" />
+
+    <TextView
+        android:id="@+id/tv_Under15Min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="&lt; 15"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Time" />
+
+    <TextView
+        android:id="@+id/tv_Under30Min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="&lt; 30"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_Under15Min"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Time" />
+
+    <TextView
+        android:id="@+id/tv_Under1Hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="&lt; 60"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_Under30Min"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Time" />
+
+    <TextView
+        android:id="@+id/tv_Over1Hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="60 +"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_Under1Hour"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Time" />
+
+    <TextView
+        android:id="@+id/fixedTv_Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="Rating"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Under15Min" />
+
+    <TextView
+        android:id="@+id/tv_5Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="5 ⭐"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Rating" />
+
+    <TextView
+        android:id="@+id/tv_4Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="4 ⭐"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_5Star"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Rating" />
+
+    <TextView
+        android:id="@+id/tv_3Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="3 ⭐"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_4Star"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Rating" />
+
+    <TextView
+        android:id="@+id/tv_2Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="2 ⭐"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_3Star"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Rating" />
+
+    <TextView
+        android:id="@+id/tv_1Star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/filter_option_border"
+        android:gravity="center_horizontal"
+        android:text="1 ⭐"
+        android:textColor="@color/neon_blue"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_2Star"
+        app:layout_constraintTop_toBottomOf="@+id/fixedTv_Rating" />
+
+    <TextView
+        android:id="@+id/fixedTv_Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/filter_option_selected_border"
+        android:gravity="center_horizontal"
+        android:letterSpacing="0.1"
+        android:paddingStart="50dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="50dp"
+        android:paddingBottom="6dp"
+        android:text="FILTER"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_5Star" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

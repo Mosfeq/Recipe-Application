@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Neutral Colour
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_4">#FF484848</color>
+    <color name="gray_3">#FF797979</color>
+    <color name="gray_2">#FFA9A9A9</color>
+    <color name="gray_1">#FFD9D9D9</color>
+
+    //Primary
+    <color name="primary_5">#FF129575</color>
+    <color name="primary_4">#FF71B1A1</color>
+    <color name="primary_3">#FFAFD3CA</color>
+    <color name="primary_2">#FFDBEBE7</color>
+    <color name="primary_1">#FFF6FAF9</color>
+
+    //Secondary
+    <color name="secondary_5">#FFFF9C00</color>
+    <color name="secondary_4">#FFFFA61A</color>
+    <color name="secondary_3">#FFFFBA4D</color>
+    <color name="secondary_2">#FFFFCE80</color>
+    <color name="secondary_1">#FFFFE1B3</color>
+
+    //Warning
+    <color name="warning_1">#FF804E00</color>
+    <color name="warning_2">#FF995E00</color>
+
+    //Success
+    <color name="success">#FF31B057</color>
+
+    //Additional Colours
+    <color name="favourite">#FFF90000</color>
+
+    <color name="recipe_border">#FF07CEE9</color>
+    <color name="recipe_border_inner">#FFEEFDFF</color>
+
+    <color name="rating">#FF70FF91</color>
+
+    <color name="nutrition">#FFFCFF00</color>
+
+    <color name="details_border">#FF01AF8A</color>
+    <color name="details_border_inside">#FFF2FFFB</color>
+
+    <color name="fab_details">#FF7CFF98</color>
+
+    <color name="platinum">#FFF3F3F3</color>
+
+    <color name="neon_blue">#FF1F51FF</color>
+
+    <color name="tutorial_cover">#8FD9D9D9</color>
+
+    <color name="instruction_ingredient_border">#6FEDEDED</color>
+
+</resources>

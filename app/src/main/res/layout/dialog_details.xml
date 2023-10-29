@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_border"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nutrientsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Nutrients"
+        android:textSize="26sp"
+        android:fontFamily="@font/poppins_semi_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/caloriesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Calories:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_calories"
+        app:layout_constraintTop_toBottomOf="@+id/nutrientsText" />
+
+    <TextView
+        android:id="@+id/dialog_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="456"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/caloriesText"
+        app:layout_constraintTop_toBottomOf="@+id/nutrientsText" />
+
+    <TextView
+        android:id="@+id/fatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Fat:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_fat"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_calories" />
+
+    <TextView
+        android:id="@+id/dialog_fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="26"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fatText"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_calories" />
+
+    <TextView
+        android:id="@+id/carbohydratesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Carbohydrates:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_carbohydrates"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_fat" />
+
+    <TextView
+        android:id="@+id/dialog_carbohydrates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="39"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/carbohydratesText"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_fat" />
+
+    <TextView
+        android:id="@+id/sugarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Sugar:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_sugar"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_carbohydrates" />
+
+    <TextView
+        android:id="@+id/dialog_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="22"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sugarText"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_carbohydrates" />
+
+    <TextView
+        android:id="@+id/fiberText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Fiber:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_fiber"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_sugar" />
+
+    <TextView
+        android:id="@+id/dialog_fiber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="7"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fiberText"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_sugar" />
+
+    <TextView
+        android:id="@+id/proteinText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="-5dp"
+        android:text="Protein:"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dialog_protein"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_fiber" />
+
+    <TextView
+        android:id="@+id/dialog_protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:layout_marginStart="5dp"
+        android:text="18"
+        android:textSize="14sp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/proteinText"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_fiber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
