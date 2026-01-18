@@ -76,7 +76,7 @@ Focus on maintainable and testable code
 
 Clone the repository:
 
-git clone https://github.com/Mosfeq/Recipe-Application
+git clone https://github.com/Mosfeq/QuickServe
 
 Open the project in Android Studio
 
