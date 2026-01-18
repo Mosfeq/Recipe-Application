@@ -65,9 +65,7 @@ Build and run on an emulator or physical device
 
 -------
 
-Below are screenshots of the running application, as well as a link to my LinkedIn post regarding this app:
-<br>
-https://www.linkedin.com/posts/activity-7119653833370136577-UHIQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJ-7aYB4zbEAPnyTuZl4qx7zSSVG5tLCos
+Below are screenshots of the running application:
 <br><br>
 
 <img src="https://github.com/user-attachments/assets/41a5dd5c-57fd-46d1-bc0e-4fb3ac0bcd38" width="250"/>
