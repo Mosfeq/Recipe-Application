@@ -37,6 +37,29 @@ Saved dishes are securely stored using Firebase
 
 -------
 
+### Tech Stack 🛠 
+#### Android
+
+- Kotlin
+
+- MVVM Architecture
+
+- LiveData
+  
+- ViewModel
+
+- XML-based UI
+
+- Retrofit for API calls
+
+#### Backend & Services
+
+- Tasty API – recipe and dish data
+
+- Firebase – storing saved dishes
+
+-------
+
 ### Architecture 🏗 
 
 MVVM (Model–View–ViewModel) for clean separation of concerns
