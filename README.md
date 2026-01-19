@@ -12,12 +12,14 @@ Built with Kotlin, MVVM, and Firebase, Quick Serve demonstrates modern Android d
 Browse a wide range of dishes retrieved from the Tasty API
 
 Discover recipes based on popularity and ratings
+<br>
 
 ### Search & Filtering 🔍 
 
 Search for dishes based on user preferences
 
 Filter results by ratings and other criteria
+<br>
 
 ### Dish Details 📖 
 
