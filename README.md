@@ -1,4 +1,4 @@
-# Quick Serve 🍽️ 
+# 🍽️ Quick Serve
 
 Quick Serve is a native Android application that allows users to discover, search, and save dishes using data retrieved from the Tasty API.
 The app focuses on a clean UI/UX, smooth navigation, and a scalable MVVM architecture, providing an intuitive and enjoyable browsing experience.
@@ -37,7 +37,7 @@ Saved dishes are securely stored using Firebase
 
 -------
 
-### Tech Stack 🛠 
+## 🛠 Tech Stack
 #### Android
 
 - Kotlin
@@ -60,7 +60,7 @@ Saved dishes are securely stored using Firebase
 
 -------
 
-### Architecture 🏗 
+## 🏗 Architecture 
 
 MVVM (Model–View–ViewModel) for clean separation of concerns
 
@@ -72,7 +72,7 @@ Focus on maintainable and testable code
 
 -------
 
-## Getting Started 🚀
+## 🚀 Getting Started 
 
 Clone the repository:
 
@@ -85,6 +85,15 @@ Add your Tasty API key
 Configure Firebase (google-services.json)
 
 Build and run on an emulator or physical device
+
+-------
+
+## 🔗 LinkedIn Showcase
+
+Screenshots highlighting the UI/UX design, dish discovery flow, and recipe details are available on LinkedIn.
+
+👉 **View the LinkedIn post:**  
+https://www.linkedin.com/posts/activity-7119653833370136577-UHIQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJ-7aYB4zbEAPnyTuZl4qx7zSSVG5tLCos
 
 -------
 
